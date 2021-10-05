@@ -4,7 +4,8 @@ export const pageArray = [
     title: "Your Quest Begins",
     body: `Greetings adventurer! You've just begun your birthday quest. After a long and hard journey, you've arrived in the quaint but mystical town of Rivera. 
     Once here, you decide it might be best to stop at the local 'tavern' to rest and collect your thoughts. You'll be able to tell where to go by finding a quest marker like the picture below.
-     Click 'Continue' once you've taken a seat at the bar. Click the 'Need Help' button below for tips, and if you really get stuck, just call your husband.
+     Click 'Continue' once you've taken a seat at the bar. Click the 'Need Help' button below for tips, and if you really get stuck, just call your husband. Also, try to avoid turning on lights when possible.
+     You can use the lantern to help in dark places. Turn the utility room light off before continuing.
     `,
     image: "Marker.png",
     input: null,

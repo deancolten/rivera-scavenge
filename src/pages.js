@@ -2,14 +2,25 @@ export const pageArray = [
   //OPEN
   {
     title: "Your Quest Begins",
-    body: `Greetings adventurer! You've just begun your birthday quest. After a long and hard journey, you've arrived in the quaint but mystical town of Rivera. 
+    body: `Greetings adventurer! You've just begun your birthday quest. This is going to be a fun little adventure full of exploration, riddles, treasure, and maybe even combat. You can progress through your adventure
+    by clicking continue below. Occasionally, you will need to answer questions or find codes to progress. You'll be adventuring through the town of Rivera (Our House). If you get stuck, you can call upon your ancestors' spirits for guidance (aka: call your husband). 
+    You can also occasionally hit the 'Need Help' button below for tips.
+    Also, try to avoid turning on lights when possible.
+    You can use the lantern to help in dark places.
+    `,
+    input: null,
+    tip: `This is a helpful tip!`,
+  },
+
+  {
+    title: "Your Quest Begins",
+    body: `After a long and hard journey, you've arrived in the quaint but mystical town of Rivera. 
     Once here, you decide it might be best to stop at the local 'tavern' to rest and collect your thoughts. You'll be able to tell where to go by finding a quest marker like the picture below.
-     Click 'Continue' once you've taken a seat at the bar. Click the 'Need Help' button below for tips, and if you really get stuck, just call your husband. Also, try to avoid turning on lights when possible.
-     You can use the lantern to help in dark places. Turn the utility room light off before continuing.
+    Click 'Continue' once you've taken a seat at the bar.
     `,
     image: "Marker.png",
     input: null,
-    tip: `This is going to be a fun little adventure game with quests, riddles, and presents! For now, just go to the kitchen bar...`,
+    tip: `Just go tho the kitchen to find "the Tavern"`,
   },
 
   {

@@ -1,3 +1,9 @@
+html {
+  background: #1f1d1d;
+  color: #ddd5bb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Quest {
+  color: #ddd5bb;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QBody {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 6px 20px 6px 20px;
+}
+
+.hider {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.hider.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.btnbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  background-color: rgb(116, 83, 55);
+  color: #ddd5bb;
+  border-style: groove;
+  border-width: 5px;
+  border-color: #837a78;
+  font-size: large;
+  font-weight: 600;
+  margin: 2px 8px 2px 8px;
+  padding: 8px 16px;
+}
+.btn:active {
+  background-color: rgb(73, 53, 35);
+  color: #a7a08d;
+  border-style: ridge;
+}
+
+.btn:disabled {
+  color: #97958d;
+  background-color: rgb(112, 106, 100);
+}
+
+.hint-btn {
+  color: #9c8d5a;
+}
+
+.hint-btn:active {
+  color: #796d45;
+}
+
+.hint-btn:hover {
+  color: #beae77;
+}
+
+.inputField {
+  color: #a7a08d;
+  margin-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.205);
+  border-width: 6px;
+  font-size: large;
+  text-align: center;
+  max-width: 400px;
+}
+
+.photo {
+  height: 120px;
+  width: 120pxpx;
 }

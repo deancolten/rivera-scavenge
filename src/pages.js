@@ -224,7 +224,7 @@ export const pageArray = [
     piercing screams of the gray dragon, but due to a restraining order that he preferred not to 
     explain in detail, the mage can’t go to the library himself. 
     He doesn’t know the title, but gives you a riddle that he believes will lead you to it:  
-    "Though it is serious, it's a funny read. The cover is the color that dying men bleed."`,
+    "From this book, a clever solution shall be produced. The cover is the color of a tangy fruit oft' juiced."`,
     input: null,
     tip: null,
   },
@@ -300,7 +300,7 @@ export const pageArray = [
 
   {
     title: "The Keep",
-    body: `He instructs you to open the bottom drawer of his chest. 
+    body: `He instructs you look under the large quilt on his chair. 
     “You might be travelling alone now, but soon you may find that it’s better to have a companion on your journey. 
     This special garment of mine might be helpful when the time comes.”`,
     input: null,

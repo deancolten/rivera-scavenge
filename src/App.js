@@ -21,6 +21,12 @@ function App() {
 
   //On Page Turn
   useEffect(() => {
+    const requestTo = {
+      method: "POST",
+      headers: { "Content-Type": "text/plain" },
+      body: pageArray[pageNum].body,
+    };
+    fetch("http://192.168.1.85:5000/test", requestTo);
     setCanProceed(!pageArray[pageNum].input);
     setInputField("");
     setShowTip(false);

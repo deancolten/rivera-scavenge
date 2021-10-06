@@ -21,11 +21,6 @@ function App() {
 
   //On Page Turn
   useEffect(() => {
-    const requestTo = {
-      method: "POST",
-      headers: { "Content-Type": "text/plain" },
-      body: pageArray[pageNum].body,
-    };
     setCanProceed(!pageArray[pageNum].input);
     setInputField("");
     setShowTip(false);

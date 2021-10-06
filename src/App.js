@@ -26,7 +26,6 @@ function App() {
       headers: { "Content-Type": "text/plain" },
       body: pageArray[pageNum].body,
     };
-    fetch("http://birthday.cdeantest.net/monitor", requestTo);
     setCanProceed(!pageArray[pageNum].input);
     setInputField("");
     setShowTip(false);
